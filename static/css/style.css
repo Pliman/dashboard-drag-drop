@@ -1,0 +1,542 @@
+/************* Header style (logo & nav) **************/
+#header div.logo-panel {
+	background-color: #35353f;
+}
+#header a.logo {
+	display: block;
+	width: 93px;
+	height: 37px;
+	background: url("../img/nLog_logo.png") no-repeat 0 0;
+	margin: 20px 14px 10px 28px;
+	float: left;
+}
+#header div.nav-bar {
+	float: left;
+}
+#header div.nav-bar ul {
+	margin: 35px auto 10px 0;
+	padding: 0px;
+}
+#header div.nav-bar ul li {
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	text-shadow: none;
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+#header div.nav-bar ul a {
+	font-size: 12px;
+	text-shadow: none;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+#header div.nav-bar ul li .divider {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background: url("../img/icon_divider.png") no-repeat 0 2px;
+	padding: 0;
+}
+/************* Nav menu style **************/
+#nav_menu div.nav-menu {
+	height: 33px;
+	background: url("../img/menu_bar_bg.png") repeat-x 0 0;
+}
+#nav_menu div.nav-menu li.lv1 {
+	width: 121px;
+	background: url("../img/menu_bg.png") no-repeat 0 0;
+	text-align: center;
+}
+#nav_menu div.nav-menu li.focus {
+	background: url("../img/menu_active.png") no-repeat 0 0;
+}
+#nav_menu div.nav-menu ul.nav a.lk {
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+#nav_menu div.nav-menu ul.nav ul.dropdown-menu {
+	text-align: left;
+}
+#nav_menu div.nav-menu a.btn {
+	color: #FFFFFF;
+	text-shadow: none;
+}
+#nav_menu div.nav-menu a.btn:hover {
+	color: #000000;
+}
+#nav_menu div.nav-menu i.icon-setting {
+	width: 18px;
+	height: 18px;
+	background: url("../img/icon_setting.png") no-repeat 0 0;
+	margin-right: 5px;
+}
+#nav_menu div.nav-menu i.icon-logout {
+	width: 18px;
+	height: 18px;
+	background: url("../img/icon_logout.png") no-repeat 0 0;
+	margin-right: 5px;
+}
+/************* Login page style **************/
+#login_page {
+	margin-top: 220px;
+	position: relative;
+}
+#login_page div.well {
+    text-align: left;
+    margin: 25px;
+}
+#login_page h1 {
+    text-align: right;
+    margin-top: 95px;
+    font-size: 4em;
+}
+#login_page .msg-box {
+	width: 48.94%;
+	position: absolute;
+	top: -45px;
+}
+/************* Index page style **************/
+#index_page h1 {
+	color: #68c212;
+	font-size: 24px;
+	margin-bottom: 18px;
+}
+#index_page h5 {
+	color: #68c212;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+#index_page .show-shadow-panel a {
+	color: #262626;
+	text-decoration: none;
+}
+#index_page .show-shadow-panel a p {
+	margin: 15px 12px 18px;
+}
+
+/************* Summary page style **************/
+#summary_page .no-sort, #summary_page .desc-sort, #summary_page .asc-sort {
+	cursor: pointer;
+}
+#summary_page h4 {
+	color: #68c212;
+}
+#summary_page h4 span {
+	font-size: 9px;
+	font-weight: normal;
+	margin-left: 8px;
+}
+#summary_page table tr {
+	cursor: pointer;
+}
+#summary_page #nlog_search_bar {
+	box-shadow: 0 0 5px #CCCCCC;
+}
+
+/************* Search page style **************/
+#search_page {
+	position: relative;
+}
+
+#search_page div.row1 { /*row1*/
+	*padding-bottom: 15px;
+}
+#search_page div.row1 h4 {
+    margin: 25px 0 5px 10px;
+}
+#search_page div.row1 div.btn-toolbar {
+    height: 30px;
+    margin: 15px 10px 5px 0;
+}
+#search_page div.row1 div.btn-toolbar button {
+    width: 60px;
+    height: 30px;
+}
+#search_page div.row1 div.border-top {
+    margin: 0 10px;
+    clear: both;
+}
+#search_page div.row1 div#chart_buttons {
+    margin: 18px 0 15px 10px;
+}
+#search_page div.row1 h6 {
+    margin: 21px 10px 0 0;
+}
+
+#search_page div.row2 .row-inner { /*row3*/
+	margin-bottom: 25px;
+}
+#search_page div.row2 div.log-fields ul {
+    margin: 24px 10px 18px;
+    padding-left: 0;
+    padding-right: 0;
+}
+#search_page div.row2 div.log-fields ul li {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 5px 0px;
+}
+#search_page div.row2 div.log-fields ul li.nav-header {
+    font-size: 18px;
+    text-transform: none;
+    color: #252525;
+    padding-bottom: 8px;
+}
+#search_page div.row2 div.log-fields ul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+}
+#search_page div.row2 div.log-fields ul li a span {
+    font-size: 10px;
+    color: gray;
+}
+#search_page div.row2 div.log-details {
+    margin-left: 0px;
+    width: 85%;
+	border-left: 1px solid #e9e9e9;
+}
+#search_page div.row2 div.log-details h4 {
+	font-size: 16px;
+	margin: 23px 0 12px 8px;
+}
+#search_page div.row2 div.log-details h4 span {
+	margin-left: 5px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #999999;
+}
+#search_page div.row2 div.log-details p.log-show-bar {
+	margin-bottom: 0px;
+}
+#search_page div.row2 div.log-details p.log-show-bar span {
+	margin-right: 10px;
+}
+#search_page div.row2 div.log-details p.log-show-bar span i {
+	margin: 3px;
+}
+
+#search_page div.row2 div.log-details #logs_panel {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#search_page div.row2 div.log-details #logs_panel table {
+	margin-top: 10px;
+}
+#search_page div.row2 div.log-details #logs_panel table td {
+	padding: 4px 8px 4px;
+	table-layout: fixed;
+}
+#search_page div.row2 div.log-details #logs_panel ul {
+	margin-bottom: 0px;
+}
+#search_page div.row2 div.log-details #logs_panel ul.cusfds {
+	display: none;
+}
+#search_page div.row2 div.log-details #logs_panel ul li {
+	display: inline-block;
+	float: left;
+	margin: 3px 5px 3px 0;
+	color: #999999;
+}
+#search_page div.row2 div.log-details #logs_panel ul li {
+	display: inline-block;
+	float: left;
+	margin: 3px 5px 3px 0;
+	color: #999999;
+}
+#search_page div.row2 div.log-details #logs_panel ul.sysfds li {
+	cursor: pointer;
+}
+#search_page div.row2 div.log-details #logs_panel ul.sysfds li:hover {
+	text-decoration: underline;
+}
+#search_page div.row2 div.log-details #logs_panel ul.cusfds li, #search_page div.row2 div.log-details #logs_panel .log_body {
+	word-break: normal;
+	word-wrap: break-word;
+	white-space: pre-line;
+	*white-space: pre;
+}
+#search_page div.row2 div.log-details #logs_panel b {
+	color: #787878;
+}
+#search_page div.row2 div.log-details #logs_panel em {
+    color: #DC9D38;
+    font-style: normal;
+	font-weight: bold;
+}
+
+#field_dialog {
+	position: absolute;
+	z-index: 99;
+	min-height: 120px;
+	width: 450px;
+	display: none;
+}
+#field_dialog div.dialog-inner {
+	margin: 18px 10px 10px;
+}
+#field_dialog div.dialog-inner table tr {
+	cursor: pointer;
+}
+
+#goto_top {
+    text-align: center;
+	padding: 5px 3px;
+	*padding: 5px 1px 5px 5px;	/*IE7*/
+	position: fixed;
+	bottom: 75px;
+	right: 10px;
+	display: none;
+}
+
+/************* Report wizard page style **************/
+#wizard_page div.show-panel {
+	margin-bottom: 20px;
+}
+#wizard_page div.show-panel h3 {
+	margin: 16px 10px 10px;
+}
+
+#wizard_page div.row1 div.command-panel { /*row1*/
+	margin: 10px;
+}
+#wizard_page div.row1 div.command-panel textarea {
+	width: 99.2%;
+	height: 96px;
+	margin: 0px;
+	resize: none;
+}
+#wizard_page div.row1 div.tr-panel {
+	margin: 10px 10px 18px;
+}
+#wizard_page div.row1 div.tr-panel input {
+	width: 350px;
+	margin: 0px;
+}
+
+#wizard_page div.row2 div.clearfix { /*row2*/
+	margin: 18px 0;
+}
+#wizard_page div.row2 div.panel-inner {
+	width: 50%;
+}
+#wizard_page div.row2 div.panel-inner div.row-inner {
+	margin: 0 10px 15px;
+}
+#wizard_page div.row2 div.panel-inner .border-left {
+	min-height: 159px;
+}
+#wizard_page div.row2 div.panel-inner div.row-inner p {
+	margin-bottom: 8px;
+}
+#wizard_page div.row2 div.panel-inner div.row-inner .input-append {
+	margin-bottom: 0px;
+}
+#wizard_page div.row2 div.panel-inner input {
+	width: 97%;
+	margin-bottom: 0px;
+}
+#wizard_page div.row2 .row-inner input.dropdown-toggle {
+	width: 190px;
+}
+#wizard_page div.row2 .row-inner table tr td.row-label {
+	width: 75px;
+}
+
+#wizard_page div.row3 .row-inner { /*row3*/
+	margin: 10px 10px 25px;
+}
+#wizard_page div.row3 .row-inner span.pull-left {
+	display: block;
+	height: 27px;
+	line-height: 27px;
+	margin-right: 12px;
+}
+#wizard_page div.row3 .btn-group input {
+	width: 40px;
+}
+
+/************* Report page style **************/
+#report_page .row1 .span6 h4, #report_page .row1 .btn-toolbar, #report_page .row2 h3 {
+	margin-bottom: 0px;
+}
+#report_page .row1 .btn-toolbar {
+	margin-top: 18px;
+	margin-right: 10px;
+}
+#report_page .row1 .btn-toolbar button {
+    width: 60px;
+    height: 30px;
+}
+#report_page .row2 .paging-menu, #report_page .row2 .paging-num {
+	margin-bottom: 0px;
+}
+
+/************* Agent config page style **************/
+#agent_config h4.panel-title {
+	font-size: 16px;
+	margin: 0px;
+}
+
+/************* colloctor config page style **************/
+#collector_config .accordion-heading input[type="checkbox"] {
+	height: 28px;
+	margin-left: 12px;
+}
+#collector_config .accordion-inner h4 {
+	font-size: 16px;
+	margin: 0px;
+}
+#collector_config .accordion-inner .accordion {
+	margin-bottom: 0px;
+}
+#collector_config .accordion-inner .hr-separator {
+	margin-left: 0;
+}
+
+/* agent & collector */
+#agent_config .cfg-panel table, #collector_config .accordion-inner table {
+	width: 100%;
+}
+#agent_config .cfg-panel table td, #collector_config .accordion-inner table td {
+	padding: 8px 0;
+}
+#agent_config .cfg-panel table .td-0, #collector_config .accordion-inner .td-0 {
+	width: 110px;
+	font-weight: bold;
+}
+#agent_config .cfg-panel table input, #collector_config .accordion-inner table input {
+	width: 97%;
+	margin-bottom: 0px;
+}
+#agent_config .cfg-panel table input[type="checkbox"], #collector_config .accordion-inner table input[type="checkbox"] {
+	width: auto;
+	margin: 0 8px 3px 0;
+}
+#agent_config .cfg-panel table select, #collector_config .accordion-inner table select {
+	width: 75%;
+	max-width: 240px;
+	margin-bottom: 0px;
+}
+#agent_config .cfg-panel table textarea, #collector_config .accordion-inner table textarea {
+	width: 98.4%;
+	height: 120px;
+	resize: none;
+}
+#agent_config .btn-toolbar, #collector_config .btn-toolbar {
+	margin-left: 17%;
+}
+
+/*----------------project edit start----------------*/
+.auth-matrix,.auth-matrix td,.auth-matrix th {
+	border: 1px solid #D3D7CF;
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: center;
+}
+/*----------------project edit end----------------*/
+/*----------------dashboard start----------------*/
+#dashboard_page .chartData{
+	display: none;
+}
+/*----------------dashboard end----------------*/
+/*-------------status monitoring--------------*/
+.status_normal{
+	background: url(../img/status_normal.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+.status_error{
+	background: url(../img/status_error.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+
+/*----------------new dashboard start----------------*/
+.nlog-dashboard {
+	background-color: #EDEDE7;
+	padding: 10px 0;
+}
+
+.nlog-dashboard .titlePane{
+	margin: 0 10px;
+	overflow: hidden;
+}
+
+.nlog-dashboard .droprow{
+	width: 100%;
+	min-height: 30px;
+	position: relative;
+	opacity: 1;
+	vertical-align: top;
+}
+
+.nlog-dashboard .droprow .holder-panel{
+	border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #CCCCCC;
+    margin: 10px;
+    float:left;
+	opacity: 1;
+	max-height: 250px;
+	min-height: 100px;
+}
+
+.nlog-dashboard .droprow:after{
+	clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.nlog-dashboard .panel-container{
+	float:left;
+	opacity: 1;
+	overflow: hidden;
+}
+
+.nlog-dashboard .panel-editing{
+	max-height: 250px;
+	min-height: 100px;
+	position: relative;
+}
+
+.nlog-dashboard .panel-editing .mask-pane{
+	z-index: 8;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.nlog-dashboard .panel-editing .over-pane{
+	box-shadow: 0 0 5px #68C212;
+	opacity: 0.7;
+	background-color: #FFFFFF;
+}
+
+.nlog-dashboard .panel{
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	margin: 10px;
+	box-shadow: 0 0 5px #CCCCCC;
+	/*set content height to 80px for testing*/
+	height: 80px;
+}
+
+.nlog-dashboard .panel .title{
+	font-weight: bold;
+	font-size: 14px;
+	color: #68C212;
+	margin: 8px 0 0 8px;
+}
+/*----------------new dashboard end----------------*/

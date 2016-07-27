@@ -1,0 +1,598 @@
+body {
+    min-width: 1002px;
+}
+
+/** common styles **/
+.gray {
+	color: gray;
+}
+
+/** adjust bootstrp style **/
+select {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #555555;
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 9px;
+    padding: 4px;
+    width: 210px;
+}
+
+input .disabled, textarea .disabled {
+	background-color: #FFFFFF;
+}
+
+input[readonly], input[disabled], textarea[readonly], textarea[disabled] {
+	background-color: #FFFFFF;
+}
+
+/** adjust style **/
+.no-radius {
+    border-radius: 0;
+}
+
+.no-radius-left {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.no-radius-right {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.radius {
+    border-radius: 5px;
+}
+
+.radius-left {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.radius-right {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.no-box-shadow {
+    box-shadow: none;
+}
+
+.box-shadow {
+	box-shadow: 0 0 5px #CCCCCC;
+}
+
+.no-border {
+    border: none;
+}
+
+.no-border-top {
+    border-top: none;
+}
+
+.no-border-bottom {
+    border-bottom: none;
+}
+
+.no-border-left {
+    border-left: none;
+}
+
+.no-border-right {
+    border-right: none;
+}
+
+.no-background {
+    background-image: none;
+    background-color: transparent;
+    filter: none;
+}
+
+.no-background-image {
+    background-image: none;
+    filter: none;
+}
+
+.no-background-color {
+    background-color: transparent;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.no-margin-top {
+    margin-top: 0px;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0px;
+}
+
+.no-margin-left {
+    margin-top: 0px;
+}
+
+.no-margin-right {
+    margin-right: 0px;
+}
+
+.border-top {
+    border-top: 1px solid #CCCCCC;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.border-left {
+    border-left: 1px solid #CCCCCC;
+}
+
+.border-right {
+    border-right: 1px solid #CCCCCC;
+}
+
+.right-label {
+	float: left;
+	padding-top: 5px;
+	width: 140px;
+}
+
+/** public style **/
+.show-shadow-panel {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 0 5px #CCCCCC;
+	margin-bottom: 20px;
+}
+
+.show-panel {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+	margin-bottom: 20px;
+}
+
+.show-panel .btn-right-append {
+	border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.table-panel {
+	margin: 0px 10px 15px;
+}
+
+.chart-panel {
+    height: 130px;
+    margin: 0 10px 15px;
+    overflow: hidden;
+}
+
+.panel-title {
+	margin: 15px 10px 10px;
+}
+
+.hr-separator {
+	margin: 0 10px 10px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.odd {
+    background-color: #f1f1f9;
+}
+
+.icon-nlog-resize {
+	background: url("../img/icon_resize.png") no-repeat 0 0;
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: text-top;
+    width: 14px;
+}
+
+.icon-nlog-search {
+	background: url("../img/search_icon.png") no-repeat 0 0;
+	height: 15px;
+	width: 15px;
+}
+
+.icon-nlog-updown {
+	background: url("../img/icon_updown.png") no-repeat 0 0;
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: text-top;
+    width: 14px;
+}
+
+.icon-nlog-up {
+	background: url("../img/icon_up.png") no-repeat 0 0;
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: text-top;
+    width: 14px;
+}
+
+.icon-nlog-down {
+	background: url("../img/icon_down.png") no-repeat 0 0;
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: text-top;
+    width: 14px;
+}
+
+.icon-nlog-dropdown {
+	background: url("../img/nelo_dropdown.png") no-repeat 0 0;
+	height: 10px;
+	width: 10px;
+	float: left;
+}
+
+.icon-nlog-top {
+	background: url("../img/icon_top.png") no-repeat 0 0;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    vertical-align: text-top;
+    width: 14px;
+}
+
+.icon-nlog-add {
+	background: url("../img/icon_add.png") no-repeat 0 0;
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: text-top;
+    width: 14px;
+}
+
+.icon-nlog-delete {
+	background: url("../img/icon_delete.png") no-repeat 0 0;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 16px;
+	height: 16px;
+    line-height: 16px;
+}
+
+.icon-nlog-running {
+	background: url("../img/icon_running.png") no-repeat 0 0;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 16px;
+	height: 16px;
+    line-height: 16px;
+}
+
+.icon-nlog-stop {
+	background: url("../img/icon_stop.png") no-repeat 0 0;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 16px;
+	height: 16px;
+    line-height: 16px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1; /* triggers hasLayout */
+}
+
+/** ------------ Common control styles ------------ **/
+
+/** Ajax paging controls **/
+#nlog_asyn_paging .paging-num {
+	margin-top: 17px;
+	margin-bottom: 5px;
+}
+#nlog_asyn_paging .paging-num a {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0;
+    padding: 4px 10px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    float: left;
+    margin-left: -1px;
+    position: relative;
+}
+#nlog_asyn_paging .paging-num a.focus {
+	color: #555555;
+	text-decoration: underline;
+}
+#nlog_asyn_paging .paging-menu {
+	margin: 17px 10px 5px;
+}
+#nlog_asyn_paging .paging-menu input {
+	width: 27px;
+}
+#nlog_asyn_paging .paging-menu ul {
+	min-width: 62px;
+}
+#nlog_asyn_paging .paging-menu div.input-append span.caret {
+	margin-top: 8px;
+}
+
+/** common paging controls **/
+#nlog_paging {
+    background-color: #6E6D73;
+	color: #FFFFFF;
+	margin-bottom: 1px;
+}
+#nlog_paging h4 {
+	height: 30px;
+    line-height: 30px;
+}
+#nlog_paging div.btn-group {
+    float: right;
+    border-radius: 6px;
+    margin-top: 3px;
+    width: 70px;
+}
+#nlog_paging div.btn-group button {
+    height:24px;
+}
+#nlog_paging div.btn-group input {
+    color: #404040;
+    font-size: 13px;
+    font-weight: 600;
+    width: 40px;
+	height: 24px;
+	min-height: 24px;
+    float: left;
+	margin-bottom: 0px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+	border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+	
+	width: 35px\9; /*IE8*/
+	padding-top: 0px\9;
+	padding-bottom: 0px\9;
+	
+	*width: 28px; /*IE7*/
+	*padding-top: 0px;
+	*padding-bottom: 0px;
+	*min-height: 22px;
+	*height: 22px;
+}
+#nlog_paging div.btn-group button {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	float:none;
+}
+#nlog_paging div.btn-group ul {
+	min-width: 65px;
+}
+#nlog_paging div.btn-group ul li a {
+	font-weight: 600;
+	color: #000000;
+}
+#nlog_paging div.pull-right ul {
+	list-style: none;
+	margin: 0px;
+}
+#nlog_paging div.pull-right ul li {
+	float: left;
+}
+
+#nlog_paging div.pull-right ul li a {
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	font-weight: 600;
+	margin: 0 10px;
+	color: #FFFFFF;
+}
+#nlog_paging div.pull-right ul li i {
+	*margin-top: 8px;
+}
+#nlog_paging div.pull-right ul li a.active {
+    font-weight: 600;
+    display: inline-block;
+    margin: 0 10px;
+    color: #000000;
+}
+
+/** list menu control (page left side) **/
+#nlog_menu_list {
+	border: 1px #CCCCCC solid;
+	border-radius: 0 0 3px 3px;
+	border-bottom: 3px #CCCCCC groove;
+}
+#nlog_menu_list li a {
+	border-bottom: 1px #CCCCCC solid;
+	background-color: #F7F7F9;
+	color: #404040;
+	font-weight: 600;
+}
+
+/** data grid control **/
+#nlog_table, #nlog_table tr, #nlog_table td {
+	border-width: 0px;
+	table-layout:fixed;
+}
+#nlog_table th.place_middle, td.place_middle {
+	text-align: center;
+}
+#nlog_table thead {
+	background-color: #A6A6AE;
+	color: #F1F1F9;
+}
+#nlog_table th, #nlog_table td {
+	word-break: normal;
+	word-wrap: break-word;
+	white-space: pre-line;
+	*white-space: pre;
+}
+
+/** page layout **/
+.w400 {
+	width: 400px;
+	min-width: 400px;
+}
+
+.fn {
+	float: none !important;
+}
+
+.fr {
+	float: right !important;
+}
+
+.fl {
+	float: left !important;
+}
+
+.rad-container {
+	border: 1px #CCCCCC solid;
+	border-radius: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.pageseperator {
+	margin-top: 24px;
+	border-bottom: 1px #CCCCCC solid;
+}
+
+.page-content {
+	margin-top: 12px;
+}
+
+.container-inner {
+	margin: 0 10px 15px;
+}
+
+.nelo-btn {
+	background-image: -moz-linear-gradient(center top, #EFEEF4, #CCCCCC);
+}
+
+.nelo-btn:hover {
+	background-position: 0 -30px !important;
+}
+
+.left-input {
+	float: left;
+}
+
+.short-input {
+	width: 120px !important;
+}
+
+.seperator {
+	border-top: 1px #CCCCCC solid;
+}
+/** nlog_query control **/
+#nlog_query .searchBtn{
+	height:30px;
+	border-radius: 3px;
+	font-weight: 600;
+}
+
+#nlog_query .searchIcon{
+	height:30px;
+	border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#nlog_query .w10-space {
+	width: 10px;
+	display: inline-block;
+	float: right;
+	height: 1px;
+}
+
+#nlog_query .condition-selter{
+	float: right;
+	height: 30px;
+}
+
+#nlog_query .condition-selter .item{
+	color: #404040;
+	font-size: 13px;
+	font-weight: 600;
+	height: 30px;
+	min-height: 20px;
+	width: 120px;
+}
+
+#nlog_query .condition-selter button{
+	float: none;
+	height: 30px;
+}
+
+#nlog_query .condition-selter .dropdown-menu{
+	width: 120px;
+	min-width: 120px;
+}
+
+#nlog_query .queryKeyword{
+	float: right;
+	width: 360px;
+	min-height: 20px;
+	height: 30px;
+}
+/** nlog_search bar control **/
+#nlog_search_bar table { /*row1*/
+    margin: 0 10px 18px 10px;
+}
+#nlog_search_bar table .search-panel {
+    height: 28px;
+    margin-right: 8px;
+    position: relative;
+    z-index: 99;
+}
+#nlog_search_bar table .search-panel textarea {
+    height: 18px;
+    width: 99.2%;
+    line-height: 18px;
+    resize: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 9;
+}
+#nlog_search_bar table div.input-append {
+    width: 160px;
+    margin: 0px;
+}
+#nlog_search_bar table input.dropdown-toggle {
+    width: 115px;
+}
+#nlog_search_bar table button.btn {
+    width: 50px;
+}
+#nlog_search_bar table div.input-append input {
+	background-color: #FFFFFF;
+}
+
+#CT_dialog input.datepicker:hover {
+	cursor: pointer;
+}
+#CT_dialog input.timepicker-default {
+	background-color: #FFFFFF;
+	border-left: 0px;
+	-webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
